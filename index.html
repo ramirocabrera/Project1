@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="main-window">
+        <div id="top-navbar">
+            <h1>Just<span>Dessert</span></h1>
+
+            <div>
+                <button id="join-btn" onclick="removeBtn(this)">Join</button>
+                <Button id="login-btn">Login</Button>
+            </div>
+        </div>
+
+        <div id="search-bar">
+            <div>
+                <input type="text" name="" id="search-input" placeholder="SEARCH" oninput="getRecipe(this)">
+                    <button id="search-btn">GO</button>
+                </input>
+            </div>
+
+            <div class="menu-options">
+                <img src="cake.png" alt="cakepic">
+                <img src="cookie.png" alt="cookiespic">
+                <img src="ice-cream.png" alt="icecreampic">
+                <img src="pie.png" alt="piepic">
+            </div>
+        </div>
+
+        <div id="body">
+            <div id="left-col">
+                <div id="day-recipe">
+                    <h3>Recipe of the Day</h3>
+                    <img src="orange-tart.jpg" alt=""></img>
+                </div>
+                
+                <div id="person">
+                    <p>Orange Tea Jelly Tart</p>
+                    <div class="heartLikes">
+                        <p>By: <a href="">yuripiano</a></p>
+                        <div>
+                            <img src="heart.png" alt="" class="heart" onclick="addLike()">
+                                <p id="count">0</p>
+                            </img>
+                        </div>
+                    </div>
+                </div>
+
+                    <div id="closing">
+                        <p>
+                            <a href="">See Full Recipe</a>
+                        </p>
+                    </div>
+            </div>
+
+            <div id="right-col">
+                <h5>Recommended for you:</h5>
+                <div id="top-recipe">
+                    <img src="macarons.jpg" alt="">
+                    <p>Macarones</p>
+                    <div class="heartLikes">
+                        <p>By: <a href="">EmilieW</a></p>
+                        <div>
+                            <img src="heart.png" alt="" class="heart" onclick="addLike2()">
+                                <p id="count2">0</p>
+                            </img>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="bottom-recipe">
+                    <img src="creme-brulee.jpg" alt="">
+                    <p>Crème brûlée</p>
+                    <div class="heartLikes">
+                        <p>By: <a href="">MarisaG</a></p>
+                        <div>
+                            <img src="heart.png" alt="" class="heart" onclick="addLike3()">
+                                <p id="count3">0</p>
+                            </img>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

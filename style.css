@@ -1,0 +1,113 @@
+#main-window{
+    margin: 0px auto;
+    width: fit-content;
+}
+
+
+#top-navbar{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 5px;
+}
+
+span{
+    color: orange;
+}
+
+#join-btn{
+    background-color: orange;
+}
+
+#login-btn{
+    background-color: blue;
+    color: white;
+}
+
+#search-bar{
+    display: flex;
+    align-items: center;
+    background-color: peachpuff;
+    padding: 10px;
+}
+
+#search-btn{
+    background-color: blue;
+    color: white;
+}
+
+.menu-options img{
+    height: 75px;
+    background-color: white;
+    border-radius: 100px;
+    margin-right: 25px;
+}
+
+.menu-options{
+    margin-left: 25px;
+}
+
+#body{
+    margin-top: 10px;
+    display: flex;
+}
+
+h3{
+    color: blue;
+}
+
+#left-col{
+    background-color: whitesmoke;
+    margin-right: 10px;
+}
+
+#day-recipe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+#day-recipe img{
+    width: 400px;
+}
+
+#person{
+    padding: 10px;
+    
+}
+
+.heartLikes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#top-recipe img{
+    width: 250px;
+}
+
+#bottom-recipe img{
+    width: 250px;
+}
+
+img.heart, #top-recipe img.heart, #bottom-recipe img.heart{ 
+    width: 15px;
+}
+
+h5{
+    text-decoration: underline;
+}
+
+.heartLikes div{
+    display: flex;
+    align-items: center;
+}
+
+#closing{
+    display: flex;
+    justify-content: center;
+}

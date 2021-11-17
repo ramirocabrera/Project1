@@ -1,1 +1,1 @@
-This project was a a website that focessed on HTML and CSS styling, with some JavaScript to allow for user interaction. 
+This project was a a website that focussed on HTML and CSS styling, with some JavaScript to allow for user interaction. 
